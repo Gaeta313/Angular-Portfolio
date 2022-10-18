@@ -22,7 +22,7 @@
     "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet. Il portfolio utilizza un file Json dove sono memorizzati i dati relativi ai progetti, le card vengono generate dinamicamente scorrendo l'array presente nel file Json.",
     "bg": "/assets/img/Progetti/Angular Portfolio.jpg",
     "link": "",
-    "repository": "https://github.com/Gaeta313/MyPortfolio.git"
+    "repository": "https://github.com/Gaeta313/Angular-Portfolio.git"
   },
   {
     "id": 12,
