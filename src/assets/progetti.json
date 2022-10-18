@@ -1,0 +1,208 @@
+[
+  {
+    "id": 0,
+    "title": "Memory Game",
+    "linguage": "jQuery",
+    "summary": "Il gioco del memory, realizzato con jQuery. ",
+    "description": " Sono stati introdotti due livelli di difficoltà, ed una funzione 'Aiuto' per permettere di trovare subito la copia corrispondente all'immagine selezionata.",
+    "bg": "/assets/img/Progetti/Memory Game.jpg",
+    "link": "https://jquery-memory-w532-9tdmav9vt-gaeta313.vercel.app/",
+    "images": [
+      "/assets/img/Progetti/Memory Game.jpg",
+      "/assets/img/Progetti/memory2.jpg",
+      "/assets/img/Progetti/memory3.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/Jquery-Memory.git"
+  },
+  {
+    "id": 13,
+    "title": "My Portfolio",
+    "linguage": "Angular",
+    "summary": "Il Portfolio che state visualizzando realizzato in Angular ",
+    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet. Il portfolio utilizza un file Json dove sono memorizzati i dati relativi ai progetti, le card vengono generate dinamicamente scorrendo l'array presente nel file Json.",
+    "bg": "/assets/img/Progetti/Angular Portfolio.jpg",
+    "link": "",
+    "repository": "https://github.com/Gaeta313/MyPortfolio.git"
+  },
+  {
+    "id": 12,
+    "title": "My Portfolio/React Version",
+    "linguage": "React",
+    "summary": "Una versione dello stesso portfolio che state visualizzando ma realizzato interamente in React ",
+    "description": " Pensavo che sarebbe stato stimolante realizzare personalmente il mio portfolio invece di usare uno dei tanti modelli a disposizione su internet. Il portfolio utilizza un file Json dove sono memorizzati i dati relativi ai progetti, le card vengono generate dinamicamente scorrendo l'array presente nel file Json.",
+    "bg": "/assets/img/Progetti/Portfolio.png",
+    "link": "https://my-portfolio-2f5h.vercel.app/",
+    "repository": "https://github.com/Gaeta313/MyPortfolio.git"
+  },
+  {
+    "id": 1,
+    "title": "Campo Minato",
+    "linguage": "JavaScript",
+    "summary": "Il gioco del Campo Minato, realizzato in puro JavaScript ",
+    "description": "Ho realizzato questo progetto come sfida personale. Mi incuriosiva provare a ricreare tutta la logica che c'è dietro al funzionamento di questo gioco.",
+    "bg": "/assets/img/Progetti/campoMinato.jpg",
+    "link": "https://campo-minato-77b.vercel.app/",
+    "images": [
+      "/assets/img/Progetti/campoMinato.jpg",
+      "/assets/img/Progetti/campo2.jpg",
+      "/assets/img/Progetti/campo3.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/Campo-Minato.git"
+  },
+  {
+    "id": 2,
+    "title": "Pokèdex Paginato",
+    "linguage": "JavaScript",
+    "summary": "Semplice utilizzo delle PokéAPI ",
+    "description": "Progetto realizzato come esercitazione sulle chiamate Ajax utilizzando le PokéAPI",
+    "bg": "/assets/img/Progetti/pokemon.jpg",
+    "link": "https://pok-dex-javascript-iko4.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Pok-dex-Javascript.git"
+  },
+  {
+    "id": 3,
+    "title": "Calcolatrice",
+    "linguage": "JavaScript",
+    "summary": "Calcolatrice realizzata in javascript ",
+    "description": "Il primo progetto realizzato in javaScript, sono stati anche implementati alcuni controlli supplementari, ed un display che mostra il log delle operazioni.",
+    "bg": "/assets/img/Progetti/calcolatrice.jpg",
+    "link": "https://calcolatrice-java-script-g1eh.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Calcolatrice-JavaScript.git"
+  },
+  {
+    "id": 4,
+    "title": "Simulatore di chiamate",
+    "linguage": "TypeScript",
+    "summary": "Esercitazione sulle interfacce TypeScript ",
+    "description": "Primo progetto realizzato in TypeScript, gestisce il credito residuo, e simula il costo di una chiamata con uno tariffa di 20 centesimi al minuto",
+    "bg": "/assets/img/Progetti/smartPhone.jpg",
+    "link": "https://typescript-progetto-orzn.vercel.app/",
+    "repository": "https://github.com/Gaeta313/Typescript-Progetto.git"
+  },
+  {
+    "id": 5,
+    "title": "Angular Shop",
+    "linguage": "Angular",
+    "summary": "Simulatore di e-commerce realizzato con Angular ",
+    "description": "In questo progetto viene utilizzato un fake-server per gestire un database di prodotti ed utenti. E' possibile registrare nuovi utenti ed effettuare un login simulato, senza utilizzare token. Ogni utente ha la possibilità di aggiungere prodotti al 'proprio' carrello, acquistarli completando l'aposito form. Ogni utente ha la sua pagina personale, dove può modificare il proprio indirizzo, che verrà autocompilato nel form di acquisto, e visualizzare la propria cronologia acquisti.",
+    "bg": "/assets/img/Progetti/Angular shop.jpg",
+    "link": "/info",
+    "images": [
+      "/assets/img/Progetti/Angular shop.jpg",
+      "/assets/img/Progetti/shop2.jpg",
+      "/assets/img/Progetti/shop3.jpg",
+      "/assets/img/Progetti/shop4.jpg",
+      "/assets/img/Progetti/shop5.jpg",
+      "/assets/img/Progetti/shop6.jpg",
+      "/assets/img/Progetti/shop7.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-11.git"
+  },
+  {
+    "id": 6,
+    "title": "Angular To Do List",
+    "linguage": "Angular",
+    "summary": "To Do List realizzata con Angular ",
+    "description": "Questa semplice ToDoList permette l'inserimento di tasks tramite campo input. UNa volta inserito un nuovo task è possibile contrassegnarlo come completato, è possibile modificarlo ed eliminarlo. E' stato aggiunto un caricamento fake, che attende 2 secondi prima di mostrare i dati aggiornati.",
+    "bg": "/assets/img/Progetti/AngularToDoList.jpg",
+    "link": "https://fe-0222-a-angular-to-do-list-10-ifc1.vercel.app/",
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-10.git"
+  },
+  {
+    "id": 7,
+    "title": "Amdb",
+    "linguage": "Angular",
+    "summary": "Angular movies database, progetto Angular ispirato al sito Imdb  ",
+    "description": "Questo progetto vuole realizare un archivio di film dai quali è possibile ottenere diverse informazioni. E' possibile registrarsi ed effettuare un vero login tramite token. Inoltre ogni utente ha la possibilità di aggiungere o rimuovere un film alla lista dei preferiti. E' possibile visualizzare i film suddivisi per genere, mediante l'aposito selettore. Cliccando sul pulsante info si apre un modale che mostra le inforamzioni sul film. Per l'interfaccia è stato utilizzato Material.",
+    "bg": "/assets/img/Progetti/Amdb.jpg",
+    "link": "/info",
+    "images": [
+      "/assets/img/Progetti/Amdb.jpg",
+      "/assets/img/Progetti/amdb2.jpg",
+      "/assets/img/Progetti/amdb3.jpg",
+      "/assets/img/Progetti/amdb4.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A-progetto-settimana-12.git"
+  },
+  {
+    "id": 8,
+    "title": "Angular CRM",
+    "linguage": "Angular",
+    "summary": "CRM aziendale realizzata con Angular, per la gestione di clienti e fatture.  ",
+    "description": "Questo progetto verte su un gran numero di argomenti, dalle chiamate API, Interceptor, Guards, login tramite token ecc. E' una Crm aziendale che registra degli utenti come operatori dell'applicazione, i quali potranno registrare, modificare ed eliminare clienti nel database. Ad ognuno di questi clienti è assocciata una lista di fatture, che possono essere create,modificate ed eliminate. Ci sono diverse possibilità di ordinamento e di ricerca. Tutti gli errori vengono gestiti tramite finestre modali che danno indicazioni su cosa è andato storto. Vengono utilizzate le regex per la corretta compilazione dei campi del form. Le guardie proteggono le rotte sensibili se non si è autenticati. L'intera applicazione è stata creata con la strategia lazy loading, per tanto le risorse non immedietamente richieste vengono caricate in background, per rendere l'applicazione più reattiva.",
+    "bg": "/assets/img/Progetti/AngularCrm.jpg",
+    "link": "https://fe-0222-a-progetto-finale-l7vt.vercel.app/presentazione",
+    "video": "https://youtu.be/SffOxszoL1M",
+    "images": [
+      "/assets/img/Progetti/AngularCrm.jpg",
+      "/assets/img/Progetti/crm2.jpg",
+      "/assets/img/Progetti/crm3.jpg",
+      "/assets/img/Progetti/crm4.jpg",
+      "/assets/img/Progetti/crm5.jpg",
+      "/assets/img/Progetti/crm6.jpg",
+      "/assets/img/Progetti/crm7.jpg",
+      "/assets/img/Progetti/crm8.jpg",
+      "/assets/img/Progetti/crm9.jpg",
+      "/assets/img/Progetti/crm10.jpg",
+      "/assets/img/Progetti/crm11.jpg",
+      "/assets/img/Progetti/crm12.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/FE0222A_Progetto_Finale.git"
+  },
+  {
+    "id": 9,
+    "title": "Netflix Clone",
+    "linguage": "React",
+    "summary": "Clone Netflix, realizzato con React, come progetto Epicode  ",
+    "description": "Questo progetto è stato il primo che ho realizzato in React, lo scopo era di ricreare un clone di Netflix, utilizzando le API di Omdb, sono presenti 3 gallerie che effettuano ricerche su tre saghe dal database.",
+    "bg": "/assets/img/Progetti/netflix.jpg",
+    "link": "https://react-netflix-ds9n.vercel.app/",
+    "images": ["/assets/img/Progetti/netflix.jpg", "/assets/img/Progetti/netflix2.jpg"],
+    "repository": "https://github.com/Gaeta313/react-netflix.git"
+  },
+  {
+    "id": 10,
+    "title": "React Weather",
+    "linguage": "React",
+    "summary": "Applicazione meteo realizzata in React ",
+    "description": "Un applicazione meteo sviluppata con React, grazie alla geolocalizzazione all'avvio dell'app viene caricato il meteo nella località in cui si trova l'utente. E' possibile ricercare una località per nome, inserendo anche con una virgola lo stato. Es Roma,it. Oltre al meteo attuale vengono mostrate le previsioni dei 5 giorni successivi per la località scelta.",
+    "bg": "/assets/img/Progetti/wheater.jpg",
+    "link": "https://react-weather-eo2g.vercel.app/",
+    "images": [
+      "/assets/img/Progetti/wheater.jpg",
+      "/assets/img/Progetti/wheater2.jpg",
+      "/assets/img/Progetti/wheater3.jpg",
+      "/assets/img/Progetti/wheater4.jpg",
+      "/assets/img/Progetti/wheater5.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/Epic-Weather.git"
+  },
+  {
+    "id": 11,
+    "title": "React Linkedin",
+    "featuring": [
+      {
+        "name": "Daniele Iudica",
+        "link": "https://www.linkedin.com/in/daniele-iudica/"
+      }
+    ],
+    "linguage": "React",
+    "summary": "Clone di Linkedin realizzato insieme a Daniele Iudica, compagno di corso di Epicode ",
+    "description": "Questo progetto è stato realizzato durante il corso di React di Epicode School da me e dal mio collega Daniele Iudica. Ci ha dato grande soddisfazione realizzare questo clone di Linkedin, e ci siamo impegnati per renderlo quanto più simile all'originale, sia nell'aspetto che nelle funzionalità. Abbiamo implementato anche Redux nel progetto. Nella pagina del profilo è possibile caricare immagini, aggiungere,modificare ed eliminare esperienze, modificare i dati e la foto del profilo. Nella pagina Home è possibile visualizzare gli utlimi post inseriti dagli utenti, aggiungere,modificare ed eliminare un nostro post, è presente un anteprima dell'immagine che si vuole caricare durante la creazione e la modifica di un post. E' stata implementata in tutta l'applicazione la possibilità di utilizzare la 'Dark mode' per avere il tema scuro. Tutta l'applicazione è responsive.",
+    "bg": "/assets/img/Progetti/linkedin2.jpg",
+    "link": "https://react-linkedin-65fr.vercel.app/",
+    "images": [
+      "/assets/img/Progetti/linkedin2.jpg",
+      "/assets/img/Progetti/linkedin.jpg",
+      "/assets/img/Progetti/linkedin3.jpg",
+      "/assets/img/Progetti/linkedin4.jpg",
+      "/assets/img/Progetti/linkedin5.jpg",
+      "/assets/img/Progetti/linkedin6.jpg",
+      "/assets/img/Progetti/linkedin7.jpg",
+      "/assets/img/Progetti/linkedin8.jpg",
+      "/assets/img/Progetti/linkedin9.jpg",
+      "/assets/img/Progetti/linkedin10.jpg"
+    ],
+    "repository": "https://github.com/Gaeta313/React_Linkedin.git"
+  }
+]

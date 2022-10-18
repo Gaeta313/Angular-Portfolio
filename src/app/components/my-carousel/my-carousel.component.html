@@ -1,0 +1,16 @@
+<div class="slider-wrapper">
+  <ng-container *ngIf="progetto.images!.length > 4">
+    <button class="slide-arrow" id="slide-arrow-prev" (click)="prevClick()">
+      &#8249;
+    </button>
+    <button class="slide-arrow" id="slide-arrow-next" (click)="nextClick()">
+      &#8250;
+    </button>
+  </ng-container>
+<div class="slides-container" #slidesContainer id="slides-container">
+  <div class="slide" #slide *ngFor=" let image of progetto.images">
+    <img [src]="image" width="90%" alt="" (click)="onClick(image)">
+  </div>
+
+</div>
+</div>

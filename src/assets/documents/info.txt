@@ -1,0 +1,8 @@
+
+
+- Info-
+Poichè questo progetto utilizza un local server, non è possibile caricarlo direttamente su Vercel.
+Per provarlo è necessario scaricare la repository, aprire la cartrella con visual studio code.
+Aprire il terminale integrato e digitare :
+1)  npm i
+2)  npm run full-stack

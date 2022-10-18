@@ -1,0 +1,72 @@
+<div class="modal-header">
+  <div class="w-10 me-2">
+    <img
+      width="100%"
+      [src]="onGetSource(progetto.linguage)"
+      alt="logoLinguaggio"
+    />
+  </div>
+  <h4 class="modal-title">{{ progetto.title }}</h4>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="activeModal.dismiss()"
+  ></button>
+</div>
+<div class="modal-body text-center blocco">
+  <div className="w-75 m-auto mb-4 border">
+    <img [src]="image" width="75%" alt="immagine" />
+  </div>
+  <app-my-carousel
+    *ngIf="progetto.images"
+    [progetto]="progetto"
+    (setImage)="onSetImage($event)"
+  ></app-my-carousel>
+  <h4 class="my-4">{{ progetto.summary }}</h4>
+  <div class="mt-4">
+    <p>{{ progetto.description }}</p>
+  </div>
+</div>
+<div class="modal-footer justify-content-between">
+  <div>
+    <button
+      *ngIf="progetto.link !== '' && progetto.link !== '/info'"
+      type="button"
+      class="btn btn-success me-2 provalo"
+      (click)="onOpen(progetto.link)"
+    >
+      Provalo
+    </button>
+    <button
+      *ngIf="progetto.link === '/info'"
+      type="button"
+      class="btn btn-success me-2 provalo"
+      (click)="navigateToInfo()"
+    >
+      Provalo
+    </button>
+    <button
+    *ngIf="progetto.video"
+    type="button"
+    class="btn btn-dark me-2 provalo"
+    (click)="onOpen(progetto.video)"
+  >
+    Video
+  </button>
+  <button
+    type="button"
+    class="btn btn-dark"
+    (click)="onOpen(progetto.repository)"
+  >
+    Repository
+  </button>
+  </div>
+  <button
+    type="button"
+    class="btn btn-light"
+    (click)="activeModal.close()"
+  >
+    Close
+  </button>
+</div>

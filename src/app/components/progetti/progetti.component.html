@@ -1,0 +1,32 @@
+
+<div class="mb-5 m-auto">
+  <div class="align-items-center mb-5">
+    <div>
+      <h2>- Progetti -</h2>
+    </div>
+    <div class="row">
+      <div class="col col-12 col-md-4">
+
+        <label for="floatingSelect">Filtra per Linguaggio :</label>
+          <div class="form-floating ">
+            <select class="form-select " id="floatingSelect" aria-label="Floating label select example" (change)="onSelect($event)">
+              <option value="0">Tutti i Linguaggi</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="TypeScript">TypeScript</option>
+              <option value="Angular">Angular</option>
+              <option value="jQuery">jQuery</option>
+              <option value="React">React</option>
+            </select>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+   <div *ngFor="let progetto of progetti | async" class="col mb-4">
+
+     <app-single-card [progetto]="progetto"></app-single-card>
+   </div>
+  </div>
+
+</div>
