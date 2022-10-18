@@ -7,19 +7,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { MyNavComponent } from './components/my-nav/my-nav.component';
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    SideBarComponent,
-    MyNavComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  declarations: [AppComponent, SideBarComponent, MyNavComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

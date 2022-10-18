@@ -5,14 +5,9 @@ import { ModalComponent } from 'src/app/components/modal/modal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MyCarouselComponent } from 'src/app/components/my-carousel/my-carousel.component';
 
-
-
 @NgModule({
-  declarations: [SingleCardComponent,ModalComponent,MyCarouselComponent],
-  imports: [
-    CommonModule,
-    NgbModule,
-  ],
-  exports: [SingleCardComponent,ModalComponent,MyCarouselComponent],
+  declarations: [SingleCardComponent, ModalComponent, MyCarouselComponent],
+  imports: [CommonModule, NgbModule],
+  exports: [SingleCardComponent, ModalComponent, MyCarouselComponent],
 })
-export class SahredModule { }
+export class SahredModule {}

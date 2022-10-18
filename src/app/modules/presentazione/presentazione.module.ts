@@ -7,14 +7,13 @@ import { ProfiloComponent } from 'src/app/components/profilo/profilo.component';
 import { CertificazioniComponent } from 'src/app/components/certificazioni/certificazioni.component';
 import { HardSkillsComponent } from 'src/app/components/hard-skills/hard-skills.component';
 
-
 @NgModule({
   declarations: [
-    PresentazioneComponent, ProfiloComponent,CertificazioniComponent, HardSkillsComponent
+    PresentazioneComponent,
+    ProfiloComponent,
+    CertificazioniComponent,
+    HardSkillsComponent,
   ],
-  imports: [
-    CommonModule,
-    PresentazioneRoutingModule
-  ]
+  imports: [CommonModule, PresentazioneRoutingModule],
 })
-export class PresentazioneModule { }
+export class PresentazioneModule {}

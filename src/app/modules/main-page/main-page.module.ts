@@ -8,17 +8,14 @@ import { SahredModule } from '../sahred/sahred.module';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-
 @NgModule({
-  declarations: [
-    MainPageComponent, ProgettiComponent,
-  ],
+  declarations: [MainPageComponent, ProgettiComponent],
   imports: [
     CommonModule,
     MainPageRoutingModule,
     SahredModule,
     FormsModule,
-    NgbModule
-  ]
+    NgbModule,
+  ],
 })
-export class MainPageModule { }
+export class MainPageModule {}

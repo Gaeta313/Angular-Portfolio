@@ -16,27 +16,28 @@ export class ModalComponent implements OnInit {
   constructor(
     public activeModal: NgbActiveModal,
     private progettiSrv: ProgettiService,
-    private router : Router
-    ) {}
+    private router: Router
+  ) {}
 
-    ngOnInit(): void {
-      this.image = this.progetto.bg;
-    }
+  ngOnInit(): void {
+    this.image = this.progetto.bg;
+  }
 
-    onGetSource(linguage: string): string {
-      return this.progettiSrv.getSource(linguage);
-    }
-    onOpen(link: string) {
-      window.open(link, '_blank');
-    }
+  onGetSource(linguage: string): string {
+    return this.progettiSrv.getSource(linguage);
+  }
 
-    onSetImage($event: any) {
-      this.image = $event;
-    }
+  onOpen(link: string) {
+    window.open(link, '_blank');
+  }
 
-    navigateToInfo() {
-      console.log('navigate')
+  onSetImage($event: any) {
+    this.image = $event;
+  }
+
+  navigateToInfo() {
+    console.log('navigate');
     this.router.navigate(['InfoPage']);
     this.activeModal.close();
-    }
   }
+}

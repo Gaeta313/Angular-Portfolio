@@ -2,17 +2,37 @@
   <div className="myNav">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" >Portfolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true} aria-current="page" >Progetti</a>
+              <a
+                class="nav-link active"
+                routerLink="/"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                aria-current="page"
+                >Progetti</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLink="/Presentazione" routerLinkActive="active">Profilo professionale</a>
+              <a
+                class="nav-link"
+                routerLink="/Presentazione"
+                routerLinkActive="active"
+                >Profilo professionale</a
+              >
             </li>
           </ul>
         </div>

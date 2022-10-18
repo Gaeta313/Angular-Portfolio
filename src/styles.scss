@@ -1,78 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-
-
-:root{
+:root {
   --primary-color: #c2185b;
   --secondary-color: #424242;
-  --dark-color : rgb(48, 48, 48);
+  --dark-color: rgb(48, 48, 48);
   ---text-color: white;
 }
 
 .App {
   text-align: center;
- /*  background-color: #282c34b9 !important; */
- background-color: var(--dark-color);
-  height:100%;
- /*  overflow: scroll;*/
+  /*  background-color: #282c34b9 !important; */
+  background-color: var(--dark-color);
+  height: 100%;
+  /*  overflow: scroll;*/
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-.card{
+.card {
   box-shadow: 0px 0px 10px 2px black !important;
   padding: 10px;
 }
 
-.card button{
+.card button {
   color: var(---text-color);
   background-color: var(--primary-color);
   border: none;
 }
 
-.card button:hover{
+.card button:hover {
   background-color: #c9155d !important;
 }
 
-.modal-content button{
+.modal-content button {
   color: var(---text-color);
   background-color: var(--dark-color);
   border: none;
 }
 
-.modal-content button:hover{
-  background-color: black ;
+.modal-content button:hover {
+  background-color: black;
 }
 
-.provalo{
+.provalo {
   color: var(---text-color);
   background-color: var(--primary-color) !important;
   border: none;
 }
 
-.provalo:hover{
+.provalo:hover {
   background-color: #c9155d !important;
 }
 
-.blocco{
+.blocco {
   height: 70vh;
   overflow: auto !important;
   overflow-x: hidden !important;
 }
 
 .mainPage {
-  height:92vh;
+  height: 92vh;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
-.myPresentazione{
-  height:92vh;
+.myPresentazione {
+  height: 92vh;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
@@ -82,32 +80,28 @@
   height: 100%;
 }
 
-.card, .list-group-item {
+.card,
+.list-group-item {
   background-color: var(--secondary-color) !important;
   color: var(---text-color) !important;
-
-
 }
 
-.w-10{
+.w-10 {
   width: 7%;
 }
 
-
-.modal-content{
-  background-color: var(--secondary-color)!important;
+.modal-content {
+  background-color: var(--secondary-color) !important;
   color: var(---text-color) !important;
   position: relative !important;
   z-index: 30 !important;
 }
- .carousel button{
+.carousel button {
   cursor: pointer !important;
   background-color: transparent !important;
- }
+}
 
-
-
-.myNav{
+.myNav {
   width: 100%;
 
   color: var(---text-color) !important;
@@ -117,22 +111,18 @@
   z-index: 20 !important;
 }
 
-.navbar{
+.navbar {
   background-color: var(--primary-color) !important;
 }
 
-.card img{
-
+.card img {
   margin: auto;
 }
 
-
-.presentazione{
- /*  background-color: #365e4fbf; */
- background-color: var(--secondary-color);
-  /* box-shadow: 0px 0px 5px 5px #282c34b9 ; */
-  box-shadow: 0px 0px 10px 3px var(--primary-color) ;
-  color: var(---text-color)!important;
+.presentazione {
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 10px 3px var(--primary-color);
+  color: var(---text-color) !important;
   border-radius: 10px;
   padding: 20px;
 }
@@ -142,63 +132,51 @@
   pointer-events: none;
 }
 
-
-
-
-
-
 .mySideBar p {
   font-size: 14px;
-
 }
 
-.form-select:focus{
+.form-select:focus {
   border-color: var(--primary-color) !important;
   box-shadow: 0 0 0 1px var(--primary-color) !important;
 }
 
-#select{
-  background-color: var(--secondary-color)!important;
+#select {
+  background-color: var(--secondary-color) !important;
   color: var(---text-color) !important;
 }
-.m-0{
+.m-0 {
   padding: 0px !important;
 }
 
-.relative{
+.relative {
   position: relative !important;
 }
 
-.mySideBar{
-  border-right:  0.5px solid white;
+.mySideBar {
+  border-right: 0.5px solid white;
   box-shadow: 0px 0px 10px 5px black;
   height: 100vh;
   width: 100%;
   color: var(---text-color);
   border-top-right-radius: 30%;
   border-bottom-right-radius: 30%;
-  /* background-color: #365e4fbf; */
   background-color: var(--secondary-color);
 }
 
-.mySideBar img{
-
+.mySideBar img {
   position: relative;
   bottom: 20px;
   left: 50px;
-
 }
 
-.fotoProfilo{
+.fotoProfilo {
   background-color: var(--primary-color);
   border: 1px dashed black;
-/*  box-shadow: var(--dark-color) 0px 0px 10px 10px;*/
   position: relative;
   top: 20px;
   right: 50px;
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -215,78 +193,72 @@
   color: #61dafb;
 }
 
-
-
-.contenitoreImg{
+.contenitoreImg {
   width: 20%;
 }
 
-body{
-  color:var(---text-color) !important;
+body {
+  color: var(---text-color) !important;
   overflow-y: auto;
 }
 
 @media screen and (max-width: 992px) and (min-width: 576px) {
-
-  .mainPage{
-    height:100%;
+  .mainPage {
+    height: 100%;
     overflow: visible !important;
   }
 
-  .fotoNome{
+  .fotoNome {
     display: flex;
     align-items: center;
   }
-  .rigaProfilo{
+  .rigaProfilo {
     width: 60%;
   }
 
-  .myPresentazione{
+  .myPresentazione {
     height: 100%;
     overflow: visible;
   }
 
-  .mySideBar{
+  .mySideBar {
     height: 100%;
     border-bottom-right-radius: 0%;
     margin-bottom: 5%;
   }
-
 }
 
 @media screen and (max-width: 575px) {
-  .fotoNome{
+  .fotoNome {
     display: block;
   }
-  .fotoProfilo{
+  .fotoProfilo {
     width: 50%;
     margin: auto;
   }
-  .mySideBar{
+  .mySideBar {
     height: 100%;
     margin-bottom: 5%;
     border-radius: 0%;
   }
 
-  .mainPage{
-    height:100%;
+  .mainPage {
+    height: 100%;
     overflow: visible !important;
   }
 
-  .myPresentazione{
+  .myPresentazione {
     height: 100%;
     overflow: visible;
   }
 }
 
-
-.carousel-control-prev, .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
   width: 5% !important;
 }
 
-#floatingSelect{
+#floatingSelect {
   background-color: var(--secondary-color) !important;
   color: white;
 }
-
-

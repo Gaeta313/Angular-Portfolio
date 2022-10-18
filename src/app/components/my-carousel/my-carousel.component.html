@@ -7,10 +7,9 @@
       &#8250;
     </button>
   </ng-container>
-<div class="slides-container" #slidesContainer id="slides-container">
-  <div class="slide" #slide *ngFor=" let image of progetto.images">
-    <img [src]="image" width="90%" alt="" (click)="onClick(image)">
+  <div class="slides-container" #slidesContainer id="slides-container">
+    <div class="slide" #slide *ngFor="let image of progetto.images">
+      <img [src]="image" width="90%" alt="" (click)="onClick(image)" />
+    </div>
   </div>
-
-</div>
 </div>
